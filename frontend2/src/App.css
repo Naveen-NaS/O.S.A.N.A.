@@ -1,0 +1,26 @@
+/* Custom scrollbar for a specific div */
+.custom-scrollbar {
+  direction: rtl; /* Set direction to right-to-left */
+  overflow-x: hidden; /* Hide the horizontal scrollbar */
+  margin-right: 10px; /* Add 10px margin to the right */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px;
+  height: 100%; /* Set the height of the vertical scrollbar */
+  transform: rotate(180deg); /* Rotate the scrollbar by 180 degrees */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #0a2463;
+  border-radius: 93px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #d8315b;
+  border-radius: 93px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
