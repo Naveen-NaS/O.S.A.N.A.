@@ -4,3 +4,5 @@ API Monetization: Develop an open API that allows developers and businesses to i
 
 We have trained a very accurate machine learning model which can predict with more than 95% accuracy whether the news scrapped realtime is genuine or false. To show the pridictive nature of our ML model I would like to show you the confusion matrix graph of our ml model.
 
+![Confusion Matrix](https://github.com/Naveen-NaS/O.S.A.N.A./assets/122593924/b02b9313-7229-41e6-9213-a711b3dd478d)
+
